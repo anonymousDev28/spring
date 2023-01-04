@@ -1,0 +1,139 @@
+header{
+    padding: 11px 25px;
+    background: rgb(2, 117, 216);
+}
+.header-logo{
+    max-width: 120px;
+}
+.header-logo a img{
+    max-width: 100%;
+}
+.header-avt{
+    color: white;
+    position: relative;
+    column-gap: 4px;
+}
+.header-avt .avatar{
+    background-image: url(./assets/image/avt.png);
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background-position: center;
+    background-position: center center;
+}
+.header-avt img{
+    width: 32px;
+    height: 32px;
+}
+aside{
+    height: 100vh;
+    background-color: #f0f0f0;
+    width: 25%;
+}
+.learn-menu-item.active{
+    background-color: #1890ff;
+}
+.learn-menu-item.active a svg,
+.learn-menu-item.active a{
+    color: white;
+
+}
+.side-bar{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: white;
+    background: url(../static/assets/image/sidebar.png) 0% 0% / cover no-repeat;
+}
+.side-bar-avt{
+    box-sizing: border-box;
+    width: 128px;
+    height: 128px;
+    background-color: #ccc;
+    border-radius: 100%;
+    border: 5px solid rgb(255, 255, 255); 
+    color: white;
+    margin-bottom: 20px;    
+}
+.side-bar-avt span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.side-bar p{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+.learn-menu{
+    padding-left:0 ;
+}
+.learn-menu li{
+    list-style: none;
+    height: 56px;
+    line-height: 56px;
+    display: block;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding-left: 28px;
+}
+.learn-menu-item svg{
+    font-size: 20px;
+    margin-right: 15px;
+    transition: all 0s ease 0s;
+    color: rgb(0, 0, 0,0.85);
+}
+.learn-menu li a{
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color: rgb(52, 58, 64);
+}
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.container .main{
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.container .main h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.table-transaction .table-thead .table-cell{
+    border-right: 1px solid #f0f0f0;
+    position: relative;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 16px;
+}
+.table-transaction .table-thead{
+    border-bottom: 0;
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom:none;
+}
+
+
+.table-body tr>th,
+.table-body tr>td
+{
+    padding: 16px;
+}
+.table-body tr>th{
+    color: #1890ff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
